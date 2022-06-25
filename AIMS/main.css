@@ -1,0 +1,87 @@
+.s {
+    width: 5%;
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    padding: 10px 15px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    color: White;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headL {
+    color: White;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: left;
+}
+
+.tick {
+    color: White;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: left;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+#customers tr:hover {
+    background-color: #c1c1c1;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text],
+select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form {
+    text-align: center;
+}
